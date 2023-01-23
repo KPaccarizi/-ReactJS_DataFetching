@@ -1,0 +1,46 @@
+.login-screen {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.login-screen form {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  flex-direction: column;
+  border: 1px solid #c4c4c4;
+}
+
+.login-screen h1 {
+  font-size: 42px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-screen .input-row {
+  display: flex;
+  margin-bottom: 15px;
+  flex-direction: column;
+}
+
+.login-screen input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #c4c4c4;
+}
+
+.login-screen .error {
+  color: red;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.login-screen button {
+  padding: 10px;
+  background: bisque;
+  border-radius: 4px;
+  border: 1px solid bisque;
+}
